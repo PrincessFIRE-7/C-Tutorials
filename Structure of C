@@ -1,0 +1,7 @@
+#include <stdio.h>    // Preprocessor directive to include standard input/output library
+
+int main() {          // Main function — starting point of the program
+    // Your code goes here
+    printf("Hello, World!\n");  // Prints text to the screen
+    return 0;         // Ends the program
+}
