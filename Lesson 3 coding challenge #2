@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Name: Princess\n");
+    printf("Department: Computer Science\n");
+    printf("Favorite Quotes:\n");
+    printf("Success is not final, failure is not fatal:\n");
+    printf("It is the courage to continue to continue that counts\"\n");
+    printf("\"Believe you can and you are halfway there.\"\n");
+    printf("\"Code is like humor. When you have to explain it, it's bad\"\n");
+    return 0;
+}
