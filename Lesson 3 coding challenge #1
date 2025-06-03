@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    printf("Name: Princess\n");
+    printf("Course: Computer Science\n");
+    printf("Quote: \"Discipline is the bridge between goals and accomplishment.\"\n");
+    return 0;
+}
