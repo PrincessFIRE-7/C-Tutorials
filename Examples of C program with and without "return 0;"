@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    printf("Hello, Princess!\n");
+    return 0; // Recommended for clarity
+}
+
+#include <stdio.h>
+int main() {
+    printf("Hello, Princess!\n");
+    // return 0; is optional in modern compilers
+}
