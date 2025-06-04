@@ -1,0 +1,29 @@
+/*
+Lesson 3 - Coding Challenge #3
+
+This program displays a simple timetable using tab escape characters (\t) and formatting lines.
+
+Expected Output:
+--------------------------------------------
+  Subject        Time
+--------------------------------------------
+  Math           9:00 AM - 10:30 AM
+  English        11:00 AM - 12:00 PM
+  Physics        2:00 PM - 3:30 PM
+  Chemistry      4:00 PM - 5:00 PM
+--------------------------------------------
+*/ 
+
+#include <stdio.h>
+int main()
+{
+  printf("--------------------------------------------\n");
+  printf("  Subject\t\tTime\n");
+  printf("--------------------------------------------\n");
+  printf("  Math\t\t\t9:00 AM - 10:30 AM\n");
+  printf("  English\t\t11:00 AM - 12:00 PM\n");
+  printf("  Physics\t\t2:00 PM - 3:30 PM\n");
+  printf("  Chemistry\t\t4:00 PM - 5:00 PM\n");
+  printf("--------------------------------------------");
+  return 0;
+}
