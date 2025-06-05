@@ -1,0 +1,24 @@
+/*
+Output:
+Day        Subjects
+-----------------------
+Monday     Math, English
+Tuesday    Chemistry, Physics
+Wednesday  Biology, Literature
+Thursday   Computer, Revision
+Friday     Mock Test
+*/
+
+#include <stdio.h>
+
+int main() {
+    printf("Day\t\tSubjects\n");
+    printf("-----------------------\n");
+    printf("Monday\t\tMath, English\n");
+    printf("Tuesday\t\tChemistry, Physics\n");
+    printf("Wednesday\tBiology, Literature\n");
+    printf("Thursday\tComputer, Revision\n");
+    printf("Friday\t\tMock Test\n");
+
+    return 0;
+}
