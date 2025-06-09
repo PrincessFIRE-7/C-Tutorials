@@ -1,0 +1,26 @@
+/*
+Output:
+Name: Princess
+Course: Computer Science
+
+Quote of the Day:
+    "Success doesn't come from what you do occasionally, it comes from what you do consistently."
+
+Age: 19
+Target CGPA: 5.00
+*/
+
+#include <stdio.h>
+int main() {
+    // Personal info
+    printf("Name: Princess\n");
+    printf("Course: Computer Science\n");
+    printf("\n");
+    // Quote with label and indentation
+    printf("\nQuote of the Day:\n");
+    printf("\t\"Success doesn't come from what you do occasionally, it comes from what you do consistently.\"\n");
+    printf("\n");
+    printf("Age: 18\n");
+    printf("Target CGPA: 5.0");
+    return 0;
+}
