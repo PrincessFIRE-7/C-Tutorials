@@ -1,0 +1,47 @@
+/*
+==============================
+     STUDENT PROFILE CARD     
+==============================
+Name: Princess
+Course: Computer Science
+Level: 100
+Goal: Graduate with 5.00 CGPA
+
+==============================
+       DAILY MOTIVATION       
+==============================
+"Push yourself, because no one else is going to do it for you."
+
+==============================
+           TARGETS            
+==============================
+- Master C Programming
+- Stay consistent with practice
+- Build strong GitHub portfolio
+*/
+
+#include <stdio.h>
+
+int main() {
+    printf("==============================\n");
+    printf("     STUDENT PROFILE CARD     \n");
+    printf("==============================\n");
+    printf("Name: Princess\n");
+    printf("Course: Computer Science\n");
+    printf("Level: 100\n");
+    printf("Goal: Graduate with 5.00 CGPA\n");
+
+    printf("\n==============================\n");
+    printf("       DAILY MOTIVATION       \n");
+    printf("==============================\n");
+    printf("\"Push yourself, because no one else is going to do it for you.\"\n");
+
+    printf("\n==============================\n");
+    printf("           TARGETS            \n");
+    printf("==============================\n");
+    printf("- Master C Programming\n");
+    printf("- Stay consistent with practice\n");
+    printf("- Build strong GitHub portfolio\n");
+
+    return 0;
+}
