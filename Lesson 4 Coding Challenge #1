@@ -1,0 +1,23 @@
+// Output:
+// Variables declared and values assigned.
+
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    char gender;
+    int age;
+    float height;
+    char department[30];
+
+    // Assign values
+    gender = 'F';
+    age = 18;
+    height = 1.65;
+    // We are not assigning to department yet to avoid using strings
+
+    // Print simple confirmation
+    printf("Variables declared and values assigned.\n");
+
+    return 0;
+}
