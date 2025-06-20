@@ -1,0 +1,22 @@
+// Output:
+// Device status loaded.
+
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    char device_type;
+    int battery_percentage;
+    float screen_size;
+    char brand[30]; // Not assigned yet
+
+    // Assign values
+    device_type = 'T';
+    battery_percentage = 76;
+    screen_size = 6.5;
+
+    // Confirmation message
+    printf("Device status loaded.\n");
+
+    return 0;
+}
