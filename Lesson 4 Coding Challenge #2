@@ -1,0 +1,22 @@
+// Output:
+// Summary recorded successfully.
+
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    char grade;
+    int total_subjects;
+    float average_score;
+    char remark[50]; // Not assigned yet
+
+    // Assign values
+    grade = 'A';
+    total_subjects = 9;
+    average_score = 92.75;
+
+    // Confirmation message
+    printf("Summary recorded successfully.\n");
+    
+    return 0;
+}
