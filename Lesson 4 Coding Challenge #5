@@ -1,0 +1,22 @@
+// Output:
+// Final variable check complete.
+
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    char initial;
+    int courses;
+    float cgpa_goal;
+    char platform[40]; // Not assigned yet
+
+    // Assign values
+    initial = 'P';
+    courses = 7;
+    cgpa_goal = 5.00;
+
+    // Final check message
+    printf("Final variable check complete.\n");
+
+    return 0;
+}
