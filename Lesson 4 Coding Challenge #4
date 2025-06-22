@@ -1,0 +1,22 @@
+// Output:
+// Study session recorded.
+
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    char subject;
+    int study_duration;
+    float break_time;
+    char goal[50]; // Not assigned yet
+
+    // Assign values
+    subject = 'C';
+    study_duration = 90;
+    break_time = 15.5;
+
+    // Confirmation message
+    printf("Study session recorded.\n");
+
+    return 0;
+}
